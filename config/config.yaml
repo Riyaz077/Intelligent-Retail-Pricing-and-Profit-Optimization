@@ -1,0 +1,5 @@
+random_state: 42
+pricing:
+  minimum_price_factor: 0.80
+  maximum_price_factor: 1.25
+  maximum_change_pct: 0.15
