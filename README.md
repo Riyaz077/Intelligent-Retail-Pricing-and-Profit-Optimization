@@ -80,7 +80,8 @@ Revenue = price × predicted units. Gross profit = (price − unit cost) × pred
 ### Responsible use and limitations
 Avoid discriminatory or collusive pricing and comply with consumer-protection, competition, privacy, and sector-specific requirements. Synthetic data, pooled elasticity, and simplified demand features limit the reliability of recommendations. Validate pricing changes through controlled experiments before deployment.
 
-### Author
-**Mohamed Riyaz S.** | Computer Science & Engineering · Business Analytics
+## Author
 
-MIT License. See `LICENSE`.
+**Mohamed Riyaz S.**  
+Integrated M.Tech, Computer Science and Engineering (Business Analytics)  
+VIT Chennai
