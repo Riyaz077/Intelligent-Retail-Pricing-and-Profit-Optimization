@@ -17,7 +17,7 @@ RetailProfit AI is a retail analytics demonstrator that combines demand modellin
 
 For your GitHub README, I recommend using a **Mermaid flowchart**. It looks professional, is easy to maintain, and renders directly on GitHub.
 
-### **Architecture – System Workflow**
+## **Architecture – System Workflow**
 
                  ┌──────────────────────────┐
                  │    Retail Sales Data     │
