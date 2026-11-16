@@ -5,7 +5,7 @@ RetailProfit AI is a retail analytics demonstrator that combines demand modellin
 
 > The included dataset is synthetic. Results are illustrative and do not establish real-world pricing lift. Validate recommendations using real sales, cost, inventory, competitor, and promotion data.
 
-### Features
+## **Features**
 - Retail sales data generation, validation, and exploratory analytics.
 - Demand estimation using a Random Forest regression baseline.
 - Pooled price elasticity estimation using log-log regression.
@@ -88,10 +88,10 @@ For your GitHub README, I recommend using a **Mermaid flowchart**. It looks prof
 
 **GitHub tip:** Use the Mermaid code directly inside your README.md. GitHub automatically renders it as an interactive-style architecture diagram.
 
-### Stack
+## **Stack**
 Python, Pandas, NumPy, Scikit-learn, Matplotlib, Streamlit, FastAPI, Joblib, Pytest.
 
-### Structure
+## **Structure**
 ```text
 RetailProfitAI/
 ├── api/                 # FastAPI service
@@ -119,7 +119,7 @@ RetailProfitAI/
 - Access interactive API documentation at `http://127.0.0.1:8000/docs`.
 - Run automated tests using `pytest -q` to validate project functionality.
 
-### Methodology
+## **Methodology**
 1. Validate product-level price, cost, promotion, date, and sales data.
 2. Engineer margin and seasonal features.
 3. Train a demand regression model and evaluate MAE, RMSE, and R².
@@ -128,13 +128,13 @@ RetailProfitAI/
 6. Apply price bounds and maximum-change constraints.
 7. Rank recommendations and publish them through the dashboard and API.
 
-### Optimization logic
+## **Optimization logic**
 Revenue = price × predicted units. Gross profit = (price − unit cost) × predicted units. The optimizer searches candidate prices within configurable bounds and selects the highest estimated gross-profit scenario. This is a decision-support baseline, not a dynamic pricing engine; it does not currently model inventory, competitor prices, substitution, or causal promotion effects.
 
-### Responsible use and limitations
+## **Responsible use and limitations**
 Avoid discriminatory or collusive pricing and comply with consumer-protection, competition, privacy, and sector-specific requirements. Synthetic data, pooled elasticity, and simplified demand features limit the reliability of recommendations. Validate pricing changes through controlled experiments before deployment.
 
-### Author
+## **Author**
 
 **Mohamed Riyaz S.**  
 Integrated M.Tech, Computer Science and Engineering (Business Analytics)  
